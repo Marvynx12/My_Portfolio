@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.projects {
+    /* max-width: 600px; */
+    /* height: 83vh;    */
+}
+.project-list {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.project-preview {
+    padding: 50px 22px;
+    margin: 20px 0;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+  .project-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+    transform: scale(1.03);
+    transition: all ease-in-out .55s;
+    cursor: pointer;
+    background-color: #EFEFEF;
+    color: #f1356d;
+    border: 1px #424242 solid;
+    border-radius: 100px;
+  }
+  .project-preview h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+  .project-preview a{
+    text-decoration: none;
+  }
+.project-content {
+  display: flex;
+  /* align-items: center; */
+}
+.project-text{
+  flex: 1;
+  padding: 50px;
+
+}
+
+.project-img {
+  margin-left: auto;
+}
