@@ -9,7 +9,7 @@ const Home = () => {
                 <p>Empowering Your Digital Vision, One Line of Code at a Time</p>
                 </div>
                 <div className="bottom2">
-                    <p>(2016-Present)</p>
+                    <p>(2018-Present)</p>
                 </div>
             </div>
         </div>

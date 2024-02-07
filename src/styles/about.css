@@ -3,9 +3,34 @@
     font-family: "Lato", sans-serif;
 }
 .about {
-    height: 89vh;
+    height: 115vh;
     padding: 20px;
 }
-h1 {
-    text-align: center;
+.aboutContent {
+    /* max-width: 1700px; */
+    font-size: 25px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}   
+.aboutContent h1 {
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 40px;
+    font-size: 60px;
+    /* text-align: left; */
+}
+.aboutContent p, b{
+    /* max-width: 1000px; */
+    margin: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    /* background-color: aqua; */
+}
+.aboutContent .p{
+    font-size: 30px;    
+}
+.aboutContent img{
+    border-radius: 40px;
+    opacity: 0.8;
 }
