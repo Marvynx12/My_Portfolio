@@ -13,7 +13,7 @@ const Projects = () => {
                                 <p>MY BLOG WEBSITE</p>
                             </div>
                             <div className='project-img'>
-                                <img width={900} src="/Blogsite.png" alt="blogsite pic"/>
+                                <img width={500} src="/Blogsite.png" alt="blogsite pic"/>
                             </div>
                         </div>
                     </a>
